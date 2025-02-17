@@ -17,8 +17,13 @@
 </head>
 
 <body>
-  <section id="oval" class="mb-4">
-    <div class="row">
+
+  <div class="container">
+
+    
+  
+    <section id="oval" class="mb-4">
+      <div class="row">
       <div class="col md-1"></div>
       <div class="col md-10">
         <div class="d-flex justify-content-center align-items-center" style="height: 80vh">
@@ -47,6 +52,23 @@
     </div>
   </section>
 
+<section id="SiriWave" class="mb-4" hidden>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+          <div>
+            <p class="text-start text-light mb-4 siri-message ">Lorem ipsum dolor sit amet consectetur </p>
+            <div id="siri-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</div>
+
  <!-- Load jQuery (Only One Version) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
@@ -57,6 +79,9 @@
 
 <!-- Particle.js -->
 <script src="script.js"></script>
+
+<!-- cd wave -->
+<script src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
 
 <!-- Textillate Dependencies -->
 <script src="Assets/texllate/jquery.lettering.js"></script>
